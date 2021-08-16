@@ -16,7 +16,10 @@
     var $container = document.querySelector('#container');
     console.log($container);
 
-    var $heading = document.createTextNode('Hello World');
+    var $heading = document.createElement('H1');
+    console.log($heading);
+    $heading.innerText = 'Hello World';
+
     $container.appendChild($heading);
   </script>
 </body>
